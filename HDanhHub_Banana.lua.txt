@@ -62,12 +62,12 @@ local plr = Player
 local Root = HumanoidRootPart
 
 -- ==========================================
--- LOAD UI LIBRARY (HDanh Hub)
+-- LOAD UI LIBRARY (Quan Hub)
 -- ==========================================
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_final.lua"))()
 
 Window = Library:CreateWindow({
-    Title = "HDanh Hub",
+    Title = "HQuan Hub",
     Desc = "- Blox Fruit",
     Image = "rbxassetid://123613996022560"
 })
@@ -353,7 +353,7 @@ end)
 wait(1)
 
 Library:Notify({
-    Title = "HDanh Hub",
+    Title = "HQuan Hub",
     Description = "Chào mừng! UI màu hồng đã được load thành công.\nNhấn nút góc trái màn hình để mở GUI.",
     Duration = 4
 })
@@ -2946,24 +2946,24 @@ task.defer(function()
 end)
 Tabs.Info:AddSection("Thông Tin")
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Community",
+    ["Title"] = "Hquan Community",
     ["Description"] = "Discord",
     ["Callback"] = function()
-        setclipboard(tostring("https://dsc.gg/nopermc"))
+        setclipboard(tostring("https://discord.gg/9WT7BzsBN"))
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
+    ["Title"] = "Ko cs Hub",
     ["Description"] = "Youtube",
     ["Callback"] = function()
-        setclipboard(tostring("https://youtube.com/@nopermc"))
+        setclipboard(tostring(""))
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
+    ["Title"] = "Con bò mạnh nhất",
     ["Description"] = "Tiktok",
     ["Callback"] = function()
-        setclipboard(tostring("www.tiktok.com/@uytins1vn._"))
+        setclipboard(tostring("tiktok.com/@ahajgdus.ahjavdgs"))
     end
 })
 Tabs.Info:AddParagraph({
